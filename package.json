@@ -1,0 +1,22 @@
+{
+  "name": "warriorjs-example",
+  "version": "1.0.0",
+  "description": "https://github.com/olistic/warriorjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemdemo/warriorjs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemdemo/warriorjs-example/issues"
+  },
+  "homepage": "https://github.com/artemdemo/warriorjs-example#readme",
+  "dependencies": {
+    "warriorjs": "^3.0.0"
+  }
+}
