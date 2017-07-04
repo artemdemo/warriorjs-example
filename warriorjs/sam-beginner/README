@@ -1,18 +1,18 @@
-Level 4
+Level 6
 
-You can hear bow strings being stretched.
+The wall behind you feels a bit further away in this room. And you hear more cries for help.
 
-Tip: No new abilities this time, but you must be careful not to rest while taking damage. Save a `_health` variable and compare it on each turn to see if you're taking damage.
+Tip: You can walk backward by passing `'backward'` as an argument to `walk()`. Same goes for `feel()`, `rescue()` and `attack()`. Archers have a limited attack distance.
 
 
-╔═══════╗
-║@ Sa S>║
-╚═══════╝
+╔════════╗
+║C @ S aa║
+╚════════╝
 
   > = stairs
   @ = Sam
-  a = archer
   S = thickSludge
+  a = archer
 
 
 Warrior abilities:
@@ -26,6 +26,8 @@ Warrior abilities:
   warrior.health()
 
   warrior.rest()
+
+  warrior.rescue()
 
 
 When you're done editing Player.js, run the warriorjs command again.
